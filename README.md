@@ -1,9 +1,9 @@
-# HyLogger — Individual Analysis (Dulya Murage, 24910402)
+# HyLogger - Individual Analysis (Dulya Murage, 24910402)
 
 Individual exploratory and comparison work I did for the **GSWA HyLogger Industry Adoption**
 capstone (CITS5553, Group 6). This is the underlying data-analysis groundwork that fed into the
-shared team project — the hands-on investigation of the raw HyLogger data and the NVCL API,
-kept separate here so my individual contribution is easy to see.
+shared team project - the hands-on investigation of the raw HyLogger data and the NVCL API,
+kept separate here because this is underlying work I did to understand and guide project.
 
 - **Team project (shared repo):** https://github.com/RVSHANDILYA/GSWA-hylogger-Industry-Adoption
 - **Data source:** GSWA HyLogger scans, open-file via the National Virtual Core Library (NVCL).
@@ -11,7 +11,7 @@ kept separate here so my individual contribution is easy to see.
 
 ## What's here
 
-### `eda/` — first-look exploratory data analysis
+### `eda/` - first-look exploratory data analysis
 Reading a raw HyLogger `.tsg` package directly with [pyTSG](https://github.com/Geological-Survey-of-Western-Australia/pytsg)
 to understand what the data actually contains before any modelling.
 - `read_hole.py` — loads the extracted NVCL package for `05GJD001`, inspects the NIR/SWIR and
@@ -19,7 +19,7 @@ to understand what the data actually contains before any modelling.
   mineral-vs-depth.
 - `nir_spectra_preview.png`, `mineral_vs_depth.png`, `strip_log_mockup.png` — outputs.
 
-### `tsg_vs_nvcl_comparison/` — raw TSG vs NVCL-API comparison
+### `tsg_vs_nvcl_comparison/` - raw TSG vs NVCL-API comparison
 A focused study of **what the pipeline's NVCL-API pull gains and loses** versus reading the raw
 `.tsg` package directly, and whether anything in the raw data is worth feeding into the classifier.
 - `compare_tsg_vs_nvcl.py` — compares the raw pyTSG data (native resolution, all TSA methods)
@@ -33,7 +33,7 @@ ETL requests only `Grp1_uTSAS` at 20 m and ignores Wt1/Error/TIR. The raw `.tsg`
 needed for sTSAS/sTSAV, named indices (e.g. ferric oxide, hematite–goethite), raw spectra and the
 embedded WAMEX ID.
 
-### `reports/` — my worked analyses
+### `reports/` - my worked analyses
 - `HyLogger_Data_Analysis.pdf`
 - `Hylogger_Industry_Adoption_Data_Analysis.pdf`
 
