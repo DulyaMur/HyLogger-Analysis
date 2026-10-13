@@ -1,0 +1,20 @@
+# Raw HyLogger / NVCL packages — hundreds of MB, downloaded locally, never committed
+*.tsg
+*.bip
+*.cras
+05GJD001/
+**/raw_package/
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
