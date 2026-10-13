@@ -33,6 +33,14 @@ ETL requests only `Grp1_uTSAS` at 20 m and ignores Wt1/Error/TIR. The raw `.tsg`
 needed for sTSAS/sTSAV, named indices (e.g. ferric oxide, hematite–goethite), raw spectra and the
 embedded WAMEX ID.
 
+### `threshold_sensitivity/` - classifier threshold sensitivity analysis
+A follow-up study answering two open questions from the group report's future work:
+how sensitive the labels are to the placeholder thresholds, and **why rule R3 (Waste
+rock) never fires**. Sweeps each threshold across the full 276-interval dataset and
+diagnoses R3. Key result: R3 is starved by two independent things, dark-mica rarely
+reaching the waste threshold and the few candidates failing the Error quality gate
+first. See `threshold_sensitivity/FINDINGS.md`.
+
 ### `reports/` - my worked analyses
 - `HyLogger_Data_Analysis.pdf`
 - `Hylogger_Industry_Adoption_Data_Analysis.pdf`
