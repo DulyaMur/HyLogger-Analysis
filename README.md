@@ -9,6 +9,12 @@ kept separate here because this is underlying work I did to understand and guide
 - **Data source:** GSWA HyLogger scans, open-file via the National Virtual Core Library (NVCL).
 - **Hole used throughout:** `05GJD001`.
 
+## How this relates to the group project
+This individual work both **guided** and **deepened** the shared project:
+
+- The **EDA** (`eda/`) and the **TSG-vs-NVCL comparison** (`tsg_vs_nvcl_comparison/`) were done *during* the project to understand the raw data and the NVCL API before modelling. They shaped team decisions: standardising on the uTSAS SWIR method, and recognising that oxide minerals (hematite/goethite) are a SWIR blind spot needing TIR data, which became the classifier's "sensor limits" and ore-proxy reasoning in the group report.
+- The **threshold sensitivity study** (`threshold_sensitivity/`) is a *follow-up* analysis done after the build, to understand the classifier's behaviour (why 89.9% of intervals are Unclassified, why rule R3 never fires) and to inform the report's future-work recommendations.
+
 ## What's here
 
 ### `eda/` - first-look exploratory data analysis
