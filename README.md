@@ -48,8 +48,7 @@ reaching the waste threshold and the few candidates failing the Error quality ga
 first. See `threshold_sensitivity/FINDINGS.md`.
 
 ### `reports/` - my worked analyses
-- `HyLogger_Data_Analysis.pdf`
-- `Hylogger_Industry_Adoption_Data_Analysis.pdf`
+- `Hylogger_Industry_Adoption_Data_Analysis.pdf` - preliminary end-to-end analysis of hole 05GJD001.
 
 ## Running the code
 The scripts expect the hole's NVCL package **downloaded and extracted locally** (hundreds of MB —
