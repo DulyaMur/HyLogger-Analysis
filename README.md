@@ -49,6 +49,7 @@ first. See `threshold_sensitivity/FINDINGS.md`.
 
 ### `reports/` - my worked analyses
 - `Hylogger_Industry_Adoption_Data_Analysis.pdf` - preliminary end-to-end analysis of hole 05GJD001.
+- `tsg_vs_nvcl_comparison.pdf` - raw TSG vs NVCL API comparison (same report as in `tsg_vs_nvcl_comparison/docs/`).
 
 ## Running the code
 The scripts expect the hole's NVCL package **downloaded and extracted locally** (hundreds of MB —
