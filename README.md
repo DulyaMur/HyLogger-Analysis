@@ -1,4 +1,4 @@
-# HyLogger - Individual Analysis (Dulya Murage, 24910402)
+# HyLogger - Analysis 
 
 Individual exploratory and comparison work I did for the **GSWA HyLogger Industry Adoption**
 capstone (CITS5553, Group 6). This is the underlying data-analysis groundwork that fed into the
