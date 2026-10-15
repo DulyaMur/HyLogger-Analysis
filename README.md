@@ -9,6 +9,8 @@ kept separate here because this is underlying work I did to understand and guide
 - **Data source:** GSWA HyLogger scans, open-file via the National Virtual Core Library (NVCL).
 - **Hole used throughout:** `05GJD001`.
 
+**Note on timeline.** This work was done on my local machine across the project; I assembled it into this git repository near submission, so the commit dates reflect when the repo was organised, not when the analysis was done. The underlying files (the pyTSG EDA, the TSG-vs-NVCL comparison, and the data-analysis reports) date from August to September; the threshold-sensitivity study is a later follow-up, as its folder notes.
+
 ## How this relates to the group project
 This individual work both **guided** and **deepened** the shared project:
 
